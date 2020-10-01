@@ -10,7 +10,7 @@ import glob
 import os
 
 params = P.get_parameters("project_alevin.yml")  # define params here
-samples = pd.read_csv("cellranger_samples.csv")
+samples = pd.read_csv("alevin_samples.csv")
 samples.set_index('name', inplace=True)
 print(samples)
 
